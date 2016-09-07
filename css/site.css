@@ -1,0 +1,21 @@
+
+body
+{
+  margin-left: 10%;
+  width: 80%;
+  text-align: left;
+}
+
+.top
+{
+  padding-top: 10px;
+  height: 20px;
+}
+
+.content
+{
+  padding: 20px;
+  font-family: Garamond, Georgia, serif;
+  font-size: 14px;
+}
+

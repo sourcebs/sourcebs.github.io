@@ -1,0 +1,29 @@
+<header class="site-header">
+
+  <div class="text-center">
+    <img alt="Source Business Solution" src="/images/banner-sourcebs.png"/></a>
+  </div>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav">
+
+          {% for i in site.pages %}
+          {% if i.title %}
+            {% if page.url == i.url %}
+              <li class="active"><a href="{{i.url}}" class="active">{{i.title}}</a></li>
+            {% else %}
+              <li><a href="{{ i.url }}">{{ i.title }}</a></li>
+            {% endif %}
+
+          {% endif %}
+          {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
