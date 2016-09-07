@@ -3,7 +3,7 @@ title: Source Business Solution
 email: cavaletti@sourcebs.com.br
 description: Página da Source Business Solution
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://sourcebs.com.br" # the base hostname & protocol for your site
+#url: "http://sourcebs.com.br" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username: sourcebs
 encoding: utf-8
